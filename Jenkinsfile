@@ -1,9 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-  
-    }
 
     stages {
         stage('Build') {
@@ -45,7 +42,7 @@ pipeline {
         }
         stage('Deploy to Staging') {
             steps {
-                echo "Deploying the application to a testing environment specified by the environment variable: ${env.TESTING_ENVIRONMENT}"
+                echo "Deploying the application to a testing environment specified by the environment variable:"
             }
             post {
                 success {
