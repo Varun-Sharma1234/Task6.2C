@@ -8,6 +8,7 @@ pipeline {
                 echo "Fetching the source code from the directory path specified by the environment variable: "
                 echo "Compiling the code and generating any necessary artifacts, updated"
                echo " updated"
+               echo"varun"
             }
         }
         stage('Test') {
