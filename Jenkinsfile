@@ -9,6 +9,7 @@ pipeline {
                 echo "Compiling the code and generating any necessary artifacts, updated"
                echo " updated"
                echo"varun"
+                 echo"varun"
             }
         }
         stage('Test') {
