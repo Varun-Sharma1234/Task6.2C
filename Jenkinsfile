@@ -10,6 +10,7 @@ pipeline {
                echo " updated"
                echo"varun"
                  echo"varun"
+                  echo"varun"
             }
         }
         stage('Test') {
